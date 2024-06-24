@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerajarviRemoval", "PerajarviRemoval\PerajarviRemoval.csproj", "{A2E8CCEE-9D4E-4586-9567-04941DFC334A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2E8CCEE-9D4E-4586-9567-04941DFC334A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E8CCEE-9D4E-4586-9567-04941DFC334A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E8CCEE-9D4E-4586-9567-04941DFC334A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E8CCEE-9D4E-4586-9567-04941DFC334A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09D9B0D9-95E6-43FC-A8E3-3A61DF4FF3DD}
+	EndGlobalSection
+EndGlobal
