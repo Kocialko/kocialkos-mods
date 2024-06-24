@@ -14,24 +14,9 @@ namespace No_Middle_Finger
 
         public override void ModSetup()
         {
-            SetupFunction(Setup.OnLoad, Mod_OnLoad);
             SetupFunction(Setup.Update, Mod_Update);
         }
 
-        public override void ModSettings()
-        {
-            // All settings should be created here. 
-            // DO NOT put anything else here that settings or keybinds
-        }
-
-        private void Mod_OnLoad()
-        {
-            if (Input.GetKeyDown(KeyCode.M))
-            {
-                Application.Quit();
-            }
-            // Called once, when mod is loading after game is fully loaded
-        }
         private void Mod_Update()
         {
             if (Input.GetKeyDown(KeyCode.M))
