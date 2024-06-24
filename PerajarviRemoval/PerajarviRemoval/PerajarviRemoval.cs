@@ -19,18 +19,9 @@ namespace Perajarvi_Removal
         public override void ModSetup()
         {
             SetupFunction(Setup.PostLoad, Mod_PostLoad);
-            SetupFunction(Setup.Update, Mod_Update);
         }
 
         private void Mod_PostLoad()
-        {
-            Object.Destroy(GameObject.Find("WATERFACILITY"));
-            Object.Destroy(GameObject.Find("STORE"));
-            Object.Destroy(GameObject.Find("PERAJARVI"));
-            Object.Destroy(GameObject.Find("INSPECTION"));
-            Object.Destroy(GameObject.Find("THEATRE"));
-        }
-        private void Mod_Update()
         {
             Object.Destroy(GameObject.Find("WATERFACILITY"));
             Object.Destroy(GameObject.Find("STORE"));
