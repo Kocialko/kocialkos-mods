@@ -19,15 +19,9 @@ namespace Teimo_Removal
         public override void ModSetup()
         {
             SetupFunction(Setup.PostLoad, PostLoad);
-            SetupFunction(Setup.Update, Update);
         }
 
         public override void PostLoad()
-        {
-            Object.Destroy(GameObject.Find("STORE/TeimoInBike"));
-            Object.Destroy(GameObject.Find("STORE/TeimoInShop"));
-        }
-        public override void Update()
         {
             Object.Destroy(GameObject.Find("STORE/TeimoInBike"));
             Object.Destroy(GameObject.Find("STORE/TeimoInShop"));
